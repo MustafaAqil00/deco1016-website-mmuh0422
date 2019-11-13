@@ -47,7 +47,11 @@ body {
     line-height: 1;
     font-family: 'Lato', sans-serif;
     background-color: #191919;
-    background: url(./img/Travel1.jpg)
+    background: url(./img/Travel1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: "auto";
+
   }
 
   .form {
@@ -191,8 +195,8 @@ body {
 }
 
 .checkbox {
-  margin-top: 20px;
-  margin-bottom: 500px;
+  margin-top: 10px;
+  margin-bottom: 0px;
   
   position: relative;
   text-align: center;
@@ -255,7 +259,7 @@ padding: 0px;
   text-decoration: none;
   padding: 15px;
   margin: 10px 5px;
-
+  margin-top: 30px;
 
   cursor: pointer;
 }
@@ -267,10 +271,9 @@ padding: 0px;
 
 }
 .blinks {
-  margin-top: 10px;
-    margin-bottom: 32px;
     position: relative;
     text-align: center;
+
 }
 
 .link:hover, .link2:hover, .link3:hover {
