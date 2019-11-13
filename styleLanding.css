@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.logo {
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 300px;
+    padding: 10px;
+    height: auto;
+    margin-top: 10px;
+
+}
+.slider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #191919;
+    z-index: -1;
+}
+
+section{
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@keyframes animate-opacity {
+    from {
+        opacity: 100%;
+
+    
+    }
+
+    to {
+        opacity: 30%;
+
+    }
+
+}
+
+.background{
+    height: 99%;
+    width: 100%;
+    position: relative;
+    
+}
+.background img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    overflow: hidden;
+    animation: animate-opacity 2s ease;
+    opacity: 30%;
+}
+
+
+
+
+
+/* animation keyframes for the landing page */
+
+@keyframes animate-button {
+    from {
+        opacity: 0%;
+
+    
+    }
+
+    to {
+        opacity:100%;
+
+    }
+}
+
+
+@keyframes animate-headline {
+    from {
+        opacity: 0%;
+        top: 40%;
+    
+    }
+
+    to {
+        opacity:100%;
+        top: 20%;
+    }
+}
+
+@keyframes animate-p {
+    from {
+        opacity: 0%;
+        top: 50%;
+    
+    }
+
+    to {
+        opacity:100%;
+        top: 35%;
+    }
+}
+.headline{
+    position: absolute;
+    top: 20%;
+    margin-left: 10%;
+    font-size: 50px;
+    color:white;
+    z-index: 2  ;
+    animation: animate-headline 2s ease;
+}
+
+p{
+    font-size: 20px;
+    position: absolute;
+    top: 35%;
+    margin-left: 11%;
+    margin-right: 50%;
+    color: white;
+    
+    animation: animate-p 2s ease-out;
+
+    z-index: 2;
+}
+
+.link,.link2{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    text-align: center;
+    width: 20%;
+    
+    right: 70%;
+    font-size: 15px;
+    
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration:none;
+    text-transform: uppercase;
+    animation: animate-button 2s ease-in;
+    cursor: pointer;
+    
+  }
+
+.link{
+    top: 60%;
+    background-color:  red;
+}
+
+.link2 {
+    top: 75%;
+    background-color: rgba(255,255,255,0.1);
+    border-style: solid;
+    border-width: 2px;
+    animation: animate-button 2s ease-in;
+}
+
+.link:hover {
+    background-color: rgb(160,0,0);
+}
+
+.link2:hover {
+    background-color: rgba(255,255,255,0.5);
+}
+.logo {
+    position: relative;
+    left: 2%;
+}
+

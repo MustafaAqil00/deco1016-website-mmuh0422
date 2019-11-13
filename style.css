@@ -1,0 +1,293 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.logo {
+    background-repeat: no-repeat;
+    position: absolute;
+
+    width: 300px;
+    padding: 25px;
+    height: auto;
+
+}
+
+.plane {
+  max-width: 170px;
+  height: auto;
+}
+
+.progress {
+
+  max-width: 170px;
+  height: auto;
+  background-position: center;
+  display: inline-block;
+  position: relative;
+  padding-left: 94px;
+  padding-right: 96px;
+
+}
+
+#bm {
+  max-width: 250px;
+  height: 250px;
+  margin-top:20px;
+  margin-bottom:20px;
+  height: auto;
+  position: relative;
+  padding-left: 55px;
+  padding-right: 55px;
+  background-position: center;
+  text-align: center;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1;
+    font-family: 'Lato', sans-serif;
+    background-color: #191919;
+    background: url(./img/Travel1.jpg)
+  }
+
+  .form {
+    position: relative;
+    z-index: 1;
+    background: url(./img/Back-Plate-Black.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 360px;
+    height: 586px;
+    margin: 0 auto 120px;
+    padding: 45px;
+    top: 100px;
+        
+
+  }
+
+  h1 {
+      text-align: center;
+      color: white;
+      padding: 10px;
+
+  }
+
+  h2 {
+    text-align: center;
+      color: white;
+
+  }
+
+  .form input {
+    font-family: "Lato", sans-serif;
+    outline: 0;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 25px;
+    margin: 0 0 15px;
+    padding: 25px;
+    box-sizing: border-box;
+    background: rgba(255,255,255,.1);
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: "Lato", sans-serif;
+    color: lightgray;
+    
+    
+  }
+
+::placeholder {
+    font-family: "Lato", sans-serif;
+    color: lightgray;
+
+}
+
+/* styling for the Password strength meter */
+.form .strength {
+
+  font-family: "Lato", sans-serif;
+
+  border: none;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-left: auto;
+  font-size: 0.5px;
+  padding: 1px;
+  color: white;
+
+}
+
+
+.form select {
+  font-family: "Lato", sans-serif;
+  outline: 0;
+  width: 100%;
+  height: 48px;
+  border: none;
+    border-radius: 25px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    background: rgba(255,255,255,.1);
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: "Lato", sans-serif;
+    color: lightgray;
+  
+}
+
+
+#country option {
+  background-color: #191919;
+  }
+  .radioButtons {
+
+    margin-top: 60px;
+    margin-bottom: 32px;
+    position: relative;
+    text-align: center;
+
+  }
+
+ 
+
+    .form input[type="radio"] {
+      opacity: 0%;
+      position: absolute;
+      cursor: pointer;
+    
+    }
+
+    .form label {
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
+      background-color:rgba(255,255,255,.1);
+      padding: 15px 20px;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      color: white;
+      align-content: center;
+      border: 2px  #FFFFFF;
+      border-radius: 25px;
+
+     
+  }
+
+  .form label:hover {
+    background-color: rgba(255,255,255,.4);
+}
+
+  .form input[type="radio"]:checked + label {
+    background-color: rgba(255,255,255,.7);
+    border-color:  white;
+
+}
+
+.form input[type="checkbox"] {
+  opacity: 0%;
+  position: absolute;
+  
+}
+
+.checkbox {
+  margin-top: 20px;
+  margin-bottom: 500px;
+  
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.form input[type="checkbox"]:checked + label {
+  background-color: rgba(255,255,255,.7);
+  border-color:  white;
+  cursor: pointer;
+}
+.form input[type="radio"]:focus + label {
+  background-color: rgba(255,255,255,.7);
+
+}
+
+/* message for the password */
+#message {
+
+margin: 0px;
+padding: 0px;
+}
+
+.link {
+  display: inline-block;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  border-radius: 25px;
+  outline: 0;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  background-color:#E40000;
+  color: #FFFFFF;
+  background-size: 200% auto;
+  font-size: 15px;
+  transition: 0.5s ease;
+  margin-top: 30px;
+  margin-left: -15px;
+  text-decoration: none;
+
+
+  cursor: pointer;
+}
+
+.link2, .link3 {
+  display: inline-block;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  border-radius: 25px;
+  outline: 0;
+  width: 30%;
+  border: 0;
+  background-color:darkgrey;
+  color: #FFFFFF;
+  background-size: 200% auto;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 15px;
+  margin: 10px 5px;
+
+
+  cursor: pointer;
+}
+
+.link3 {
+
+  background-color:red;
+
+
+}
+.blinks {
+  margin-top: 10px;
+    margin-bottom: 32px;
+    position: relative;
+    text-align: center;
+}
+
+.link:hover, .link2:hover, .link3:hover {
+  background-color: rgb(158, 0, 0);
+}
+
+
+
+.NEXT {
+  display: inline-block;
+}
+
+.BACK {
+  display: inline-block;
+  background-color:rgb(63, 63, 63);
+}
+
+.form link:hover {
+  background-color: rgb(170, 1, 1);
+}

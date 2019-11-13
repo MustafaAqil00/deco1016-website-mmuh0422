@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <title>2nd Page</title>
+    
+</head>
+	
+
+<body>
+        <script src="./app.js"></script>
+    <div class="login-page">
+        <img class= logo src="./img/Qantas-White-logo.svg" alt="Qantas-White-logo">
+        <div class="form">
+
+            <img class= "progress" src="./img/progressbar2.svg" alt="">
+            <form class="register-form forms">
+
+                <h1>Setup your account</h1>
+
+                <input name="username" type="text" placeholder="Username" />
+                <input name="email" type="text" placeholder="Email" />
+                <input class="password" name="password" id="password" maxlength="20" type="password" placeholder="Password" onkeyup='check();' />
+                <div class="strength" id="length"></div>
+                <input name="password" type="password"id="confirm_password" placeholder="Confirm Password"  onkeyup='check();' />
+                <span id="message"></span>
+            
+                <div class="checkbox">
+                        <input type="checkbox" id="radioTaC" name="radioGender" value="I agree to the terms and conditions" checked>
+                        <label for= "radioTaC" required>I agree to the terms and conditions</label>
+                        <div class = "blinks">
+                        <a class="link2" href ="Page1.html">BACK</a>
+                        <a class="link3" href ="Page3.html">NEXT</a>
+                        </div>  
+              
+                </dform>
+</body>
+
+<script src="passwordmeter.js"></script>
+<script src="passwordmatch.js"></script>
+
+</html>
